@@ -10,6 +10,10 @@ body {
     padding: 0.5em;
 }
 
+input[name="StudentName"], input[name="credit_card"], select[name="sections"], input[name="card"]{
+    background-color: grey;
+}
+
 hr {
     width: 90%;
     border: 1px solid #D8C858;
@@ -21,6 +25,7 @@ h1, h2 {
 }
 
 input[type="submit"] {
+    background-color: grey;
     font-size: 2em;
     width: 100%;
 }
